@@ -5,8 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "pandas>=2.3.0",
-    "scikit-learn==1.4.0",
+    "pycaret>=3.3.2",
+    "scikit-learn>=1.4.0",
+    "sklearn-utils>=0.0.15",
 ]
 
 [dependency-groups]
