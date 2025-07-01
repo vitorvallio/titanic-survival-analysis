@@ -1,1 +1,3 @@
 # titanic-survival-analysis
+
+foi adicionado um novo modelo de regressão logística ao notebook titanic.ipynb, substituindo o modelo de Gradient Boosting Classifier (gbc). O modelo de regressão logística foi criado com a função `s.create_model("lr")` e sintonizado com `s.tune_model(lr, n_iter=10, optimize="auc")`. Além disso, foram atualizados os gráficos de confusão, PR e AUC para refletir o novo modelo. O gráfico de importância das variáveis também foi atualizado para o modelo de regressão logística.
